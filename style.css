@@ -1,0 +1,43 @@
+body{
+    background: url("./background.jpge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgb(210, 237, 250);
+    opacity: 0.2;
+}
+
+
+.main{
+    display: flex;ou
+    justify-content: space-evenly;
+    border: 5px solid black;
+    background: linear-gradient(white,grey,black);
+    border-radius: 50% 30% 20% 50%;
+}
+
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 0, 144);
+}
+
+
+h1{
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: 2px 5px 5px rgb(58, 42, 165);
+}
+
+
+img:hover{
+    opacity: 1;
+}
+
